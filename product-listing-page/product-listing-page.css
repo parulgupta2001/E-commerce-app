@@ -4,7 +4,7 @@
     height:1.5rem;
     display: flex;
     justify-content: flex-end;
-    padding: 0.3rem 1.5rem;
+    padding: 0.3rem 2rem;
     column-gap: 2rem;
   }
   
@@ -16,9 +16,7 @@
       flex-direction: column;
       background-color: white;
       row-gap: 0.3rem;
-  
   }
-  
   
   .sign-in :hover, .create-account :hover {
       text-decoration: underline;
@@ -30,9 +28,10 @@
   
   .between{
       display: flex;
-      justify-content: space-around;
+    justify-content: space-around;
       column-gap: 10rem;
       align-items: center;
+      padding-right: 0.5rem;
   
   }
   
@@ -123,7 +122,7 @@
       height:1.5rem;
       width:1.5rem;
       border-radius: 50%;
-      transform: translate(-520%,190%);
+      transform: translate(-550%,190%);
       background-color: orangered;
       color: white;
   }
@@ -132,5 +131,100 @@
       transform: translate(-120%,0%);
       cursor:pointer;
   }
-  
 
+  .sidebar {
+   height:28rem;
+   width:12rem;
+   margin-top: 11rem;
+   display: flex;
+   flex-direction:column;
+   row-gap: 3rem;
+   background-color:white;
+   border-right:solid 1px gainsboro;
+   border-radius: 0%;
+  }
+
+.rating-container {
+    display:flex;
+    flex-direction: column;
+    line-height: normal;
+    color:black;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.rating-container a {
+    color:orange;
+}
+
+.list-horizontal {
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.price-input-container{
+    display:flex;
+    column-gap: 1rem;
+}
+
+.price-dropdown {
+    width:4rem;
+    height:1.5rem;
+}
+
+.input-container{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top:solid 1px gainsboro ;
+}
+
+.range{
+    transform: translate(0%,-20%);
+}
+
+.main {
+    margin:10rem 8rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    justify-content: center;
+
+}
+
+.img-card-container{
+    height:22rem;
+    width:16rem;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0.5rem;
+}
+
+.img-container {
+    height:14rem;
+    width:14rem;
+}
+
+.img-card-container:hover {
+    box-shadow: 5px 5px 5px  gainsboro, -5px -5px 5px  gainsboro;
+}
+
+.btn{
+    background-color: #173F5F;
+    color:white;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    column-gap: 2rem;   
+}
+
+.badge {
+    transform: translate(21%,240%);
+    color:orange;
+}
