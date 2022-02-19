@@ -76,6 +76,8 @@
       display: none;
       position: absolute;
       padding-top: 1rem;
+      background-color: white;
+      box-shadow: 5px 5px 5px  gainsboro, -5px -5px 5px  gainsboro;
   }
   
   .dropdown-one:hover .dropdown-content-one   {
@@ -142,6 +144,7 @@
    background-color:white;
    border-right:solid 1px gainsboro;
    border-radius: 0%;
+   z-index: -1;
   }
 
 .rating-container {
