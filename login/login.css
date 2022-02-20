@@ -1,0 +1,180 @@
+.top{
+    background-color: black;
+    color:white;
+    height:1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.3rem 2rem;
+    column-gap: 2rem;
+  }
+  
+  .top a {
+      color:white;
+  }
+  
+  .navigation-bar {
+      flex-direction: column;
+      background-color: white;
+      row-gap: 0.3rem;
+  }
+  
+  .sign-in :hover, .create-account :hover {
+      text-decoration: underline;
+  }
+  
+  .wishlist :hover {
+      color:red;
+  }
+  
+  .between{
+      display: flex;
+    justify-content: space-around;
+      column-gap: 10rem;
+      align-items: center;
+      padding-right: 0.5rem;
+  
+  }
+  
+  .dropdown {
+      display: flex;
+      column-gap:3rem;
+      padding:0.5rem;
+      border:solid 1px gainsboro;
+      background-color: white;
+  }
+  
+  .dropdown-one,.dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five, .dropdown-six, .dropdown-seven {
+      position: relative;
+      /*display: flex;*/
+  }
+  
+   input {
+      width:30rem;
+      padding:0.5rem;
+  }
+  
+   button {
+       border: none;
+       background-color: white;
+       font-size: 1rem;
+   }
+  
+  .logo {
+      height:5rem;
+      width:4rem;
+  }
+  
+  .logo-container {
+      display: flex;
+      margin-left:1rem;
+      font-weight: bolder;
+      font-size: 1.5rem;
+      text-decoration: line-through white;
+  }
+  
+  .dropdown-content-one,.dropdown-content-two, .dropdown-content-three, .dropdown-content-four, .dropdown-content-five,     .dropdown-content-six, .dropdown-content-seven {
+      display: none;
+      position: absolute;
+      padding-top: 1rem;
+      background-color: white;
+      box-shadow: 5px 5px 5px  gainsboro, -5px -5px 5px  gainsboro;
+  }
+  
+  .dropdown-one:hover .dropdown-content-one   {
+      display: block;
+  }
+  
+  .dropdown-two:hover .dropdown-content-two{
+      display: block;
+  }
+  
+  .dropdown-three:hover .dropdown-content-three{
+      display: block;
+  }
+  
+  .dropdown-four:hover .dropdown-content-four{
+      display: block;
+  }
+  
+  .dropdown-five:hover .dropdown-content-five{
+      display: block;
+  }
+  
+  .dropdown-six:hover .dropdown-content-six{
+      display: block;
+  }
+  
+  .dropdown-seven:hover .dropdown-content-seven{
+      display: block;
+  }
+  
+  .dropdown-content-one a, .dropdown-content-two a,.dropdown-content-three a,.dropdown-content-four a,.dropdown-content-five a,.dropdown-content-six a,.dropdown-content-seven a  {
+      color: black;
+      padding-top: 1rem;
+     /* text-decoration: none;*/
+     display:block;
+  }
+  
+  .shopping-cart {
+      height:3rem;
+      width:4rem;
+  }
+    
+  .dot {
+      height:1.5rem;
+      width:1.5rem;
+      border-radius: 50%;
+      transform: translate(-550%,190%);
+      background-color: orangered;
+      color: white;
+  }
+  
+  button[type="submit"] {
+      transform: translate(-120%,0%);
+      cursor:pointer;
+  }
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.email-label {
+    margin-left: 1.5rem;
+}
+
+h3 {
+    margin-left: 12rem;
+    font-weight: 900;
+}
+
+input, .login-btn {
+    border-radius: 0.5rem;
+    width:22rem;
+    border:solid 2px gainsboro;
+}
+
+.login-btn{
+    background-color: orangered;
+    height: 2.5rem;
+    margin-left: 5rem;
+    width: 23rem;
+    color: white;
+    cursor: pointer;
+}
+
+.ecom-forgot-password {
+    cursor: pointer;
+}
+
+.option{
+    margin-left: 6rem;
+}
+
+.need-account {
+    font-size:0.9rem;
+    font-weight: 100;
+    margin-top: 0.5rem;
+}
