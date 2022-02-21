@@ -1,0 +1,24 @@
+.input-container{
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+      margin-top: 2rem;
+  }
+
+  .user-input {
+      width:22rem;
+      border-radius: 10px;
+  }
+
+  .login-btn {
+      background-color: var(--basic-color);
+      color:var(--background-color-one);
+      width:23rem;
+      border-radius: 10px;
+      cursor: pointer;
+      height:2rem;
+  }
+
+  .need-account {
+      font-size: 0.9rem;
+  }
