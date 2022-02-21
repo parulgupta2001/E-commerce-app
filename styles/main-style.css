@@ -1,6 +1,15 @@
+* {
+  --hover-color:red;
+  --background-color-one:white;
+  --background-color-two:black;
+  --border-color:gainsboro;
+  --basic-color:orangered;
+
+}
+
 .upper-nav{
-    background-color: black;
-    color:white;
+    background-color: var(--background-color-two);
+    color:var(--background-color-one);
     height:1.5rem;
     display: flex;
     justify-content: flex-end;
@@ -9,12 +18,12 @@
   }
   
   .upper-nav a {
-      color:white;
+      color:var(--background-color-one);
   }
   
   .navigation-bar {
       flex-direction: column;
-      background-color: white;
+      background-color: var(--background-color-one);
       row-gap: 0.3rem;
   }
   
@@ -23,7 +32,7 @@
   }
   
   .wishlist :hover {
-      color:red;
+      color:var(--hover-color);
   }
   
   .main-nav{
@@ -39,13 +48,12 @@
       display: flex;
       column-gap:3rem;
       padding:0.5rem;
-      border:solid 1px gainsboro;
-      background-color: white;
+      border:solid 1px var(--border-color);
+      background-color: var(--background-color-one);
   }
   
   .dropdown-one,.dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five, .dropdown-six, .dropdown-seven {
       position: relative;
-      /*display: flex;*/
   }
   
    input {
@@ -55,7 +63,7 @@
   
    button {
        border: none;
-       background-color: white;
+       background-color: var(--background-color-one);
        font-size: 1rem;
    }
   
@@ -69,15 +77,15 @@
       margin-left:1rem;
       font-weight: bolder;
       font-size: 1.5rem;
-      text-decoration: line-through white;
+      text-decoration: line-through var(--background-color-one);
   }
   
   .dropdown-content-one,.dropdown-content-two, .dropdown-content-three, .dropdown-content-four, .dropdown-content-five,     .dropdown-content-six, .dropdown-content-seven {
       display: none;
       position: absolute;
       padding-top: 1rem;
-      background-color: white;
-      box-shadow: 5px 5px 5px  gainsboro, -5px -5px 5px  gainsboro;
+      background-color: var(--background-color-one);
+      box-shadow: 5px 5px 5px  var(--border-color), -5px -5px 5px  var(--border-color);
   }
   
   .dropdown-one:hover .dropdown-content-one   {
@@ -109,9 +117,8 @@
   }
   
   .dropdown-content-one a, .dropdown-content-two a,.dropdown-content-three a,.dropdown-content-four a,.dropdown-content-five a,.dropdown-content-six a,.dropdown-content-seven a  {
-      color: black;
+      color: var(--background-color-two);
       padding-top: 1rem;
-     /* text-decoration: none;*/
      display:block;
   }
   
@@ -126,8 +133,8 @@
       width:1.5rem;
       border-radius: 50%;
       transform: translate(-960%,-100%);
-      background-color: orangered;
-      color: white;
+      background-color: var(--basic-color);
+      color: var(--background-color-one);
       display: flex;
       align-items: center;
       justify-content: center;
