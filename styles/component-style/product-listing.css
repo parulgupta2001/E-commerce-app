@@ -1,4 +1,11 @@
+*{
+    --color-one:orange;
+    --color-two:#173F5F;
+}
 
+.main{
+    padding-left: 4rem;
+}
 
   .sidebar {
    height:28rem;
@@ -7,8 +14,8 @@
    display: flex;
    flex-direction:column;
    row-gap: 3rem;
-   background-color:white;
-   border-right:solid 1px gainsboro;
+   background-color:var(--background-color-one);
+   border-right:solid 1px var(--border-color);
    border-radius: 0%;
    z-index: -1;
   }
@@ -17,13 +24,13 @@
     display:flex;
     flex-direction: column;
     line-height: normal;
-    color:black;
+    color:var(--background-color-two);
     align-items: center;
     margin-top: 2rem;
 }
 
 .rating-container a {
-    color:orange;
+    color:var(--color-one);
 }
 
 .list-horizontal {
@@ -42,11 +49,11 @@
 }
 
 .input-container{
-    color:black;
+    color:var(--background-color-two);
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top:solid 1px gainsboro ;
+    border-top:solid 1px var(--border-color) ;
 }
 
 .range{
@@ -70,7 +77,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 0.5rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    border:none;
+    background-color: var(--background-color-one);
 }
 
 .img-container {
@@ -79,19 +89,9 @@
 }
 
 .img-card-container:hover {
-    box-shadow: 5px 5px 5px  gainsboro, -5px -5px 5px  gainsboro;
+    box-shadow: 5px 5px 5px  var(--border-color), -5px -5px 5px  var(--border-color);
 }
 
 .btn{
-    background-color: #173F5F;
-    color:white;
-    cursor: pointer;
+    background-color: var(--color-two);
 }
-
-.btn-container{
-    display: flex;
-    column-gap: 2rem;   
-}
-
-
-
