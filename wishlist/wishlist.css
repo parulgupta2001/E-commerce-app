@@ -1,0 +1,193 @@
+.upper-nav{
+    background-color: black;
+    color:white;
+    height:1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.3rem 2rem;
+    column-gap: 2rem;
+  }
+  
+  .upper-nav a {
+      color:white;
+  }
+  
+  .navigation-bar {
+      flex-direction: column;
+      background-color: white;
+      row-gap: 0.3rem;
+  }
+  
+  .log-in :hover, .sign-up :hover {
+      text-decoration: underline;
+  }
+  
+  .wishlist :hover {
+      color:red;
+  }
+  
+  .main-nav{
+      display: flex;
+    justify-content: space-around;
+      column-gap: 10rem;
+      align-items: center;
+      padding-right: 0.5rem;
+  
+  }
+  
+  .dropdown {
+      display: flex;
+      column-gap:3rem;
+      padding:0.5rem;
+      border:solid 1px gainsboro;
+      background-color: white;
+  }
+  
+  .dropdown-one,.dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five, .dropdown-six, .dropdown-seven {
+      position: relative;
+      /*display: flex;*/
+  }
+  
+   input {
+      width:30rem;
+      padding:0.5rem;
+  }
+  
+   button {
+       border: none;
+       background-color: white;
+       font-size: 1rem;
+   }
+  
+  .logo {
+      height:5rem;
+      width:4rem;
+  }
+  
+  .logo-container {
+      display: flex;
+      margin-left:1rem;
+      font-weight: bolder;
+      font-size: 1.5rem;
+      text-decoration: line-through white;
+  }
+  
+  .dropdown-content-one,.dropdown-content-two, .dropdown-content-three, .dropdown-content-four, .dropdown-content-five,     .dropdown-content-six, .dropdown-content-seven {
+      display: none;
+      position: absolute;
+      padding-top: 1rem;
+      background-color: white;
+      box-shadow: 5px 5px 5px  gainsboro, -5px -5px 5px  gainsboro;
+  }
+  
+  .dropdown-one:hover .dropdown-content-one   {
+      display: block;
+  }
+  
+  .dropdown-two:hover .dropdown-content-two{
+      display: block;
+  }
+  
+  .dropdown-three:hover .dropdown-content-three{
+      display: block;
+  }
+  
+  .dropdown-four:hover .dropdown-content-four{
+      display: block;
+  }
+  
+  .dropdown-five:hover .dropdown-content-five{
+      display: block;
+  }
+  
+  .dropdown-six:hover .dropdown-content-six{
+      display: block;
+  }
+  
+  .dropdown-seven:hover .dropdown-content-seven{
+      display: block;
+  }
+  
+  .dropdown-content-one a, .dropdown-content-two a,.dropdown-content-three a,.dropdown-content-four a,.dropdown-content-five a,.dropdown-content-six a,.dropdown-content-seven a  {
+      color: black;
+      padding-top: 1rem;
+     /* text-decoration: none;*/
+     display:block;
+  }
+  
+  .shopping-cart {
+      height:3rem;
+      width:4rem;
+      display: flex;
+  }
+    
+  .dot {
+      height:1.5rem;
+      width:1.5rem;
+      border-radius: 50%;
+      transform: translate(-960%,-100%);
+      background-color: orangered;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  button[type="submit"] {
+      transform: translate(-120%,-10%);
+      cursor:pointer;
+  }
+
+  .footer{
+      height: 6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+
+  }
+
+  .social-media {
+      column-gap: 4rem;
+  }
+
+  .social-media-icon{
+      height:3rem;
+      width:3.5rem;
+      display: flex;
+  }
+
+  .main {
+    margin-top: 12rem;
+    row-gap: 0rem;
+}
+.horizontal-card {
+  border:none;
+  border-top: solid 2px gainsboro ;
+  border-bottom: solid 2px gainsboro ;
+  width:100rem;
+}
+
+.horizontal-text-container {
+  background-color: white;
+  display: flex;
+  column-gap: 6rem;
+}
+
+.shopping-cart-container {
+  display: flex;
+  column-gap: 21rem;
+}
+
+.cart-container{
+  font-size:1.5rem;
+}
+
+.add-to-button{
+  transform: translate(-200%,270%);
+  background-color: orangered;
+  height:3.5rem;
+  width:9rem;
+  color:white;
+  cursor:pointer;
+}
