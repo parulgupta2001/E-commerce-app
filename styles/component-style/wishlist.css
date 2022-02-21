@@ -1,1 +1,34 @@
+.main {
+    margin-top: 12rem;
+    row-gap: 0rem;
+}
+.horizontal-card {
+  border:none;
+  border-top: solid 2px var(--border-color) ;
+  border-bottom: solid 2px var(--border-color) ;
+  width:100rem;
+}
 
+.horizontal-text-container {
+  background-color: var(--background-color-one);
+  display: flex;
+  column-gap: 6rem;
+}
+
+.shopping-cart-container {
+  display: flex;
+  column-gap: 21rem;
+}
+
+.cart-container{
+  font-size:1.5rem;
+}
+
+.add-to-button{
+  transform: translate(-200%,270%);
+  background-color: var(--basic-color);
+  height:3.5rem;
+  width:9rem;
+  color:var(--background-color-one);
+  cursor:pointer;
+}
