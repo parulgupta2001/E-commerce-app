@@ -1,1 +1,39 @@
+.main {
+    margin-top: 12rem;
+    row-gap: 0;
+}
+.horizontal-card {
+  border:none;
+  border-top: solid 2px var(--border-color) ;
+  border-bottom: solid 2px var(--border-color);
+  width:100rem;
+}
 
+.horizontal-text-container {
+  background-color: var(--background-color-one);
+  display: flex;
+  column-gap: 8rem;
+}
+
+.shopping-cart-container {
+  display: flex;
+  column-gap: 21rem;
+}
+
+.subtotal-item {
+  margin-left: 22rem;
+  font-weight: bolder;
+}
+
+.cart-container{
+  font-size:1.5rem;
+}
+
+.buy-now-button{
+  transform: translate(-580%,320%);
+  background-color:var(--basic-color);
+  height:3rem;
+  width:9rem;
+  color:var(--background-color-one);
+  cursor:pointer;
+}
