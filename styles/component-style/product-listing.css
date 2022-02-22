@@ -13,28 +13,30 @@
    margin-top: 11rem;
    display: flex;
    flex-direction:column;
-   row-gap: 3rem;
    background-color:var(--background-color-one);
    border-right:solid 1px var(--border-color);
    border-radius: 0%;
    z-index: -1;
   }
 
-.rating-container {
+/* .rating-container {
     display:flex;
     flex-direction: column;
     line-height: normal;
     color:var(--background-color-two);
     align-items: center;
     margin-top: 2rem;
-}
+} */
 
-.rating-container a {
+/* .rating-container a {
     color:var(--color-one);
+} */
+
+.fa-star{
+    color: var(--color-one);
 }
 
 .list-horizontal {
-    margin-top: 1rem;
     font-size: small;
 }
 
