@@ -24,7 +24,7 @@
         <div><a href=cart.html><img class="shopping-cart" src="/Images/shopping-cart.jpg" alt="shopping cart">Shopping cart</a></div>
         <div class="dot">1</div>
         </div>
-        <div class="dropdown">
+        <div class="nav-dropdown">
             <div class="dropdown-one">
             <button class="sports">SPORTS</button>
             <div class="dropdown-content-one">
@@ -112,7 +112,7 @@
    
 
     <aside class="sidebar">
-        <div>RATING</div>
+        <div class="item-rating-container">RATING</div>
 
         <div class="list-horizontal rating-color">
             <a href="#"><i class="fa-solid fa-star"></i></a>
@@ -147,10 +147,10 @@
         & Up</div>
     
 
-    <div class="input-container">
+    <div class="filter-container">
         <label for="price">PRICE</label>
         <div class="price-input-container">
-        <select name="price" id="price" class="price-dropdown">
+        <select name="price" id="min-price" class="filter-price-dropdown">
             <option value="min">min</option>
             <option value="100">100</option>
             <option value="300">300</option>
@@ -159,11 +159,11 @@
             <option value="1200">1200</option>
             <option value="1700">1700</option>
             <option value="2000">2000</option>
-         </select>
+        </select>
 
         <div class="range">to</div>
 
-        <select name="price" id="price" class="price-dropdown">
+        <select name="price" id="max-price" class="filter-price-dropdown">
             <option value="max">max</option>
             <option value="1000">1000</option>
             <option value="1500">1500</option>
@@ -172,8 +172,9 @@
             <option value="5000 & above">5000 & above</option>
         </select>
     </div>
-     </div>
-     </aside>
+    </div>
+
+          </aside>
 
      <div class="main">          
         <div class="img-card-container">

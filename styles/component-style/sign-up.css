@@ -1,13 +1,10 @@
+.main{
+row-gap: 1rem;
+}
+
 .name-input {
     width:10rem;
     border-radius: 10px;
-  }
-
-  .input-container{
-      display: flex;
-      flex-direction: column;
-      row-gap: 1rem;
-      margin-top: 2rem;
   }
 
   .user-input {
